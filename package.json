@@ -10,8 +10,8 @@
     "dist"
   ],
   "dependencies": {
-    "@stepci/plugin-openapi": "git@github.com:Pro-Sound-Effects/stepci-plugin-openapi.git",
-    "@stepci/runner": "git@github.com:Pro-Sound-Effects/stepci-test-runner.git",
+    "@stepci/plugin-openapi": "https://github.com/Pro-Sound-Effects/stepci-plugin-openapi.git",
+    "@stepci/runner": "https://github.com/Pro-Sound-Effects/stepci-test-runner.git",
     "chalk": "^4.1.2",
     "ci-info": "^3.5.0",
     "cli-highlight": "^2.1.11",
