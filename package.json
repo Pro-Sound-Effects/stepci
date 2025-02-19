@@ -6,6 +6,9 @@
   "bin": {
     "stepci": "dist/index.js"
   },
+  "files": [
+    "dist"
+  ],
   "dependencies": {
     "@stepci/plugin-openapi": "https://github.com/Pro-Sound-Effects/stepci-plugin-openapi.git",
     "@stepci/runner": "https://github.com/Pro-Sound-Effects/stepci-test-runner.git",
