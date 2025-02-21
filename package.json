@@ -1,5 +1,5 @@
 {
-  "name": "stepci",
+  "name": "@Pro-Sound-Effects/stepci",
   "version": "2.8.3",
   "description": "Automated API Testing and Quality Assurance",
   "main": "index.js",
@@ -10,8 +10,8 @@
     "dist"
   ],
   "dependencies": {
-    "@stepci/plugin-openapi": "https://github.com/Pro-Sound-Effects/stepci-plugin-openapi.git",
-    "@stepci/runner": "https://github.com/Pro-Sound-Effects/stepci-test-runner.git",
+    "@stepci/plugin-openapi": "git+https://github.com/Pro-Sound-Effects/stepci-plugin-openapi.git",
+    "@stepci/runner": "github:Pro-Sound-Effects/stepci-test-runner",
     "chalk": "^4.1.2",
     "ci-info": "^3.5.0",
     "cli-highlight": "^2.1.11",
@@ -46,7 +46,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stepci/stepci.git"
+    "url": "git+https://github.com/Pro-Sound-Effects/stepci.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/Pro-Sound-Effects"
   },
   "keywords": [
     "http",
